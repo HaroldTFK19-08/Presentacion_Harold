@@ -29,3 +29,7 @@ header{
     background-color: rgb(154, 214, 194);
     overflow-y: auto;
 }
+.lista02{
+    list-style-position: inside;
+    text-align: left;
+}
