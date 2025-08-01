@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor{
+    height: 100vh;
+    display: flex;
+}
+header{
+    color: white;
+    background-color: brown;
+}
+.lista{
+    flex: 1;
+    background-color: rgb(40, 103, 127);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main01{
+    flex: 3;
+    padding: 40px;
+    background-color: rgb(154, 214, 194);
+    overflow-y: auto;
+}
